@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Disaster Recovery Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Disaster Recovery Plan</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>System</th>
+      <th>Recovery Time (RTO)</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody id="systems"></tbody>
+</table>
+
+<button onclick="simulate()">Simulate Failure</button>
+<p id="msg"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
