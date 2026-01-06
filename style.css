@@ -1,0 +1,36 @@
+body {
+  background: #020617;
+  color: #e5e7eb;
+  font-family: Arial;
+  padding: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #334155;
+  padding: 12px;
+}
+
+.ok {
+  color: #22c55e;
+}
+
+.fail {
+  color: #ef4444;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background: #f97316;
+  cursor: pointer;
+}
+
+#msg {
+  margin-top: 10px;
+}
